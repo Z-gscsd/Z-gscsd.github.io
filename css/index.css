@@ -4284,6 +4284,21 @@ h1.page-title + .tag-cloud-list {
     display: none;
   }
 }
+#rightside #go-up .scroll-percent {
+  display: none;
+}
+#rightside #go-up.show-percent .scroll-percent {
+  display: block;
+}
+#rightside #go-up.show-percent .scroll-percent + i {
+  display: none;
+}
+#rightside #go-up:hover .scroll-percent {
+  display: none;
+}
+#rightside #go-up:hover .scroll-percent + i {
+  display: block;
+}
 #sidebar #menu-mask {
   position: fixed;
   z-index: 102;
@@ -4562,7 +4577,7 @@ mjx-assistive-mml {
   overflow: hidden;
   margin: 6px 4px;
   width: calc(50% - 8px);
-  height: 250px;
+  height: 350px;
   border-radius: 8px;
   background: #000;
   -webkit-transform: translate3d(0, 0, 0);
@@ -4604,7 +4619,7 @@ mjx-assistive-mml {
   margin: 0;
   max-width: none;
   width: calc(100% + 20px);
-  height: 250px;
+  height: 350px;
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -ms-backface-visibility: hidden;
@@ -5850,9 +5865,6 @@ blockquote.pullquote.right {
   background: #2c2c2c !important;
 }
 [data-theme='dark'] #post-comment .comment-switch #switch-btn {
-  filter: brightness(0.8);
-}
-[data-theme='dark'] .note {
   filter: brightness(0.8);
 }
 [data-theme='dark'] .hide-button,
