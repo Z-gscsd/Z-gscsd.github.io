@@ -2063,17 +2063,6 @@ blockquote > :last-child {
 .article-sort-item:hover:before {
   border-color: var(--pseudo-hover);
 }
-.article-sort-item-index {
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  position: absolute;
-  top: 0.5rem;
-  right: 0.5rem;
-  font-style: italic;
-  font-size: 2.5rem;
-  line-height: 1.5rem;
-}
 .article-sort-item:before {
   position: absolute;
   left: calc(-20px - 17px);
@@ -2129,6 +2118,17 @@ blockquote > :last-child {
   -o-transform: translateX(10px);
   -ms-transform: translateX(10px);
   transform: translateX(10px);
+}
+.article-sort-item-index {
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  font-style: italic;
+  font-size: 2.5rem;
+  line-height: 1.5rem;
 }
 .article-sort-item-img {
   overflow: hidden;
